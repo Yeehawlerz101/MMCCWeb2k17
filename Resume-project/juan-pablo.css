@@ -1,0 +1,94 @@
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color:white;
+  margin-top: 0;
+  padding-top: 10px;
+}
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color:white;
+
+}
+h3 {
+  color:#808080;
+  font-family: 'Roboto', sans-serif;
+  color:white;
+}
+body {
+
+  color: #878787;
+  font-family: 'Ubuntu', sans-serif;
+  margin:0;
+
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+ul {
+  color:white;
+  font-family: 'Ubuntu', sans-serif;
+  list-style-type: none;
+}
+img {
+}
+.footer {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  margin-top: 0;
+  padding-top: 10px;
+}
+.wallpaper {
+  background-image: url(http://www.justinmaller.com/img/projects/wallpaper/WP_Echoes-2560x1440_00065.jpg);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.june2017workexp {
+  text-align: left;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 5px 3px 5px 8px;
+
+}
+.august20162017workexp {
+  text-align: left;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 5px 3px 5px 8px;
+
+}
+.june20132016workexp {
+  text-align: left;
+  font-family: 'Ubuntu', sans-serif;
+    padding: 5px 3px 5px 8px;
+
+}
+.RogerBrownrefrences {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: left;
+}
+.TinaMarierefrences {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: left;
+}
+.employerinfo {
+   font-family: "Courier New", Courier, monospace;
+}
+.btn {
+  font-family: 'Ubuntu', sans-serif;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.success {background-color: #4CAF50;} /* Green */
+.success:hover {background-color: #46a049;}
+.center {
+  display:inline-block;
+  margin-left:auto;
+  margin-right:auto;
+}
