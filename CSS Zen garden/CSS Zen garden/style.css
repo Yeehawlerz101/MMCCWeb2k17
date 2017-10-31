@@ -66,7 +66,11 @@ header {
 font-family: 'Lobster', cursive;
 color: white;
 }
-
+h3 {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Lobster', cursive;
+}
 .summary {
 font-family: 'Raleway', sans-serif;
 color: white;
@@ -91,17 +95,19 @@ font-family: 'Raleway', sans-serif;
 			float: left;
 width: 33.3%;
 padding:0px;
+border: 2px solid #eee;
 }
 .design-selection:hover {
     box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
 }
 .select {
+	font-family: 'Lobster', cursive;
 	 background-color: black;
 color: white;
 font-size: 25px;
  }
  ul {
-
+font-family: 'Raleway', sans-serif;
 		list-style-type: none;
 border: 1px solid #eee;
 margin: 0;
@@ -110,6 +116,7 @@ transition: 0.3s;
 
  }
 li {
+	font-family: 'Raleway', sans-serif;
 	border-bottom: 1px solid darkgray;
 	padding: 2px;
 	text-align: center;
