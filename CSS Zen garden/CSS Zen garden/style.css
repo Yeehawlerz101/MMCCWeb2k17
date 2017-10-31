@@ -17,6 +17,9 @@ body {
 	background: white url() no-repeat bottom right;
 	margin: 0;
 	padding: 0;
+
+
+
 	}
 p {
 	margin-top: 0;
@@ -44,12 +47,14 @@ abbr {
 	}
 
 .intro {
-	 background-image: url("https://i.imgur.com/l3MFDg1.jpg");
+	 background-image: url("http://sf.co.ua/14/05/wallpaper-2711104.jpg");
 	 height: 450px;
 	 background-attachment: fixed;
 	 background-position: center;
 	 background-repeat: no-repeat;
 	 background-size: cover;
+	 color:white;
+	 padding:65px 0px 65px 0px;
 	}
 
 header h1 {
@@ -77,6 +82,7 @@ color: white;
 	clear: both;
 	margin: 15px 15px 15px 0px;
 	width: auto;
+	padding:65px 0px 65px 35px;
 	}
 .summary p {
 font-family: 'Raleway', sans-serif;
