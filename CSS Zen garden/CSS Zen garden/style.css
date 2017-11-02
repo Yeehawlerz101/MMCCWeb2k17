@@ -14,32 +14,39 @@ html {
 	padding: 0;
 	}
 body {
-	background: white url() no-repeat bottom right;
-	margin: 0;
-	padding: 0;
-
-
-
+	background-image: url("https://wallpaperlayer.com/img/2015/10/zen-wallpaper-hd-2694-2881-hd-wallpapers.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color:white;
+	padding:65px 0px 65px 0px;
 	}
 p {
 	margin-top: 0;
+	text-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
 	}
 h3 {
 	margin-bottom: 0;
 	}
 a:link {
-color:lightblue;
+color:white;
+text-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
+font-weight: bold;
 	}
 a:visited {
-	color: darkgreen;
+	color:black;
+	text-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
+	font-weight: bolder;
 	}
 a:hover, a:focus, a:active {
-color: green;
+color:black;
+font-weight: bold;
+text-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
 	}
 abbr {
 	border-bottom: none;
 	}
-
 
 /* specific divs */
 .page-wrapper {
@@ -47,12 +54,7 @@ abbr {
 	}
 
 .intro {
-	 background-image: url("http://www.xsjjys.com/data/out/34/WHDQ-511806285.jpg");
-	 height: 450px;
-	 background-attachment: fixed;
-	 background-position: center;
-	 background-repeat: no-repeat;
-	 background-size: cover;
+	 height: 350px;
 	 color:white;
 	 padding:65px 0px 65px 0px;
 	}
@@ -72,75 +74,122 @@ margin-bottom: 10px;
 header {
 font-family: 'Lobster', cursive;
 color: white;
+text-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
 }
 h3 {
 	padding: 0px;
 	margin: 0px;
 	font-family: 'Lobster', cursive;
+	text-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
 }
 .summary {
 font-family: 'Raleway', sans-serif;
 color: white;
-	clear: both; 
+	clear: both;
 margin-left: 65px;
 	width: auto;
+	text-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
 }
 .summary p {
 font-family: 'Raleway', sans-serif;
 margin: 0px 70px 0px 0px;
-
+text-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
 }
-
 .preamble {
 	font-family: 'Raleway', sans-serif;
 	margin-left: 65px;
 	}
 	.preamble h2, h3 {
+		color: white;
 		margin-left: 60px;
+		text-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
 	}
 	.preamble p {
+		color: white;
 		padding: 0px;
 		margin-top: 0px;
 		margin: 0px 70px 0px 0px;
+		text-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
 	}
 .supporting {
 font-family: 'Raleway', sans-serif;
 	}
+	.explanation {
+	width: 45%;
+	margin-bottom: 15px;
+	float: left;
+	text-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
+
+	    box-sizing: border-box;
+					border-radius: 5px;
+		}
+		.participation {
+			width: 45%;
+			margin-left: 15px;
+			margin-bottom: 15px;
+			float: left;
+			text-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
+
+				    box-sizing: border-box;
+								border-radius: 5px;
+		}
+		.benefits {
+				width: 45%;
+				float: left;
+				text-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
+
+					    box-sizing: border-box;
+									border-radius: 5px;
+				}
+				.requirements{
+				width: 45%;
+				margin-left: 15px;
+				float: left;
+				text-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
+
+					    box-sizing: border-box;
+									border-radius: 5px;
+
+			}
 .design-selection {
 	background-color: white;
     box-sizing: border-box;
 	    text-align: center;
 			float: left;
-width: 33.3%;
+width: 100%;
 padding:0px;
-border: 2px solid #eee;
+border: 2px solid rgba(0,0,0,0.1);
 }
 .design-selection:hover {
-    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
 }
 .zen-resources:hover {
-    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
 }
 .design-archives:hover {
-    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+
 }
 .select {
 	font-family: 'Lobster', cursive;
 	 background-color: black;
 color: white;
 font-size: 25px;
+		border-radius: 5px;
  }
 .archives {
 	font-family: 'Lobster', cursive;
 	 background-color: black;
 color: white;
 font-size: 25px;
+		border-radius: 5px;
 }
 .resources {
 	font-family: 'Lobster', cursive;
 	 background-color: black;
 color: white;
 font-size: 25px;
+		border-radius: 5px;
 }
  ul {
 font-family: 'Raleway', sans-serif;
@@ -156,28 +205,31 @@ li {
 	border-bottom: 1px solid darkgray;
 	padding: 2px;
 	text-align: center;
+	text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
 }
 .design-archives {
 	background-color: white;
     box-sizing: border-box;
 	    text-align: center;
 			float: left;
-width: 33.3%;
+width: 50%;
 padding:0px;
-border: 2px solid #eee;
+border: 2px solid rgba(0,0,0,0.1);
 }
 .zen-resources{
 	background-color: white;
     box-sizing: border-box;
 	    text-align: center;
 			float: left;
-width: 33.3%;
+width: 50%;
 padding:0px;
-border: 2px solid #eee;
+border: 2px solid rgba(0,0,0,0.1);
 }
 aside {
 	clear: both;
+	height: 50px;
 }
+
 footer {
 	text-align: center;
 	position: fixed;
@@ -187,42 +239,23 @@ width: 100%;
 background-color: rgba(0, 0, 0, 0.5);
 color: rgba(255, 255, 255, 1);
 text-align: center;
+text-decoration: underline wavy red;
 	}
 footer a:link, footer a:visited {
-
 	}
-
 .sidebar {
-
-	}
-.sidebar .wrapper {
-
-	}
-.sidebar h3.select {
-
-	}
-.sidebar h3.archives {
-
-	}
-.sidebar h3.resources {
-
-	}
-
-
-.sidebar ul {
-
-	}
-.sidebar li {
-
+color: black;
 	}
 .sidebar li a:link {
-	color: #988F5E;
+	color: black;
+			text-shadow: 0px 0px 0px rgba(0, 0, 0, 1);
 	}
 .sidebar li a:visited {
-	color: #B3AE94;
+	color: white;
+			text-shadow: 0px 0px 0px rgba(0, 0, 0, 1);
 	}
 
 
 .extra1 {
-
+height: 500px;
 	}
