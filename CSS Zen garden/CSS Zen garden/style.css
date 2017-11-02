@@ -47,7 +47,7 @@ abbr {
 	}
 
 .intro {
-	 background-image: url("http://sf.co.ua/14/05/wallpaper-2711104.jpg");
+	 background-image: url("http://www.xsjjys.com/data/out/34/WHDQ-511806285.jpg");
 	 height: 450px;
 	 background-attachment: fixed;
 	 background-position: center;
@@ -60,12 +60,14 @@ abbr {
 header h1 {
 	font-family: 'Lobster', cursive;
 	margin: 0px;
-	padding: 0px;
+	padding: 5px;
 	color: white;
 	}
 header h2 {
 font-family: 'Lobster', cursive;
 color: white;
+margin-left: 50px;
+margin-bottom: 10px;
 	}
 header {
 font-family: 'Lobster', cursive;
@@ -79,17 +81,27 @@ h3 {
 .summary {
 font-family: 'Raleway', sans-serif;
 color: white;
-	clear: both;
-	margin: 15px 15px 15px 0px;
+	clear: both; 
+margin-left: 65px;
 	width: auto;
-	padding:65px 0px 65px 35px;
-	}
+}
 .summary p {
 font-family: 'Raleway', sans-serif;
-	}
+margin: 0px 70px 0px 0px;
+
+}
 
 .preamble {
 	font-family: 'Raleway', sans-serif;
+	margin-left: 65px;
+	}
+	.preamble h2, h3 {
+		margin-left: 60px;
+	}
+	.preamble p {
+		padding: 0px;
+		margin-top: 0px;
+		margin: 0px 70px 0px 0px;
 	}
 .supporting {
 font-family: 'Raleway', sans-serif;
