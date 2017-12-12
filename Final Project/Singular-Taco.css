@@ -2,16 +2,17 @@ body {margin:0;}
 
 nav {
   overflow: hidden;
-  background-color: rgba(0,0,0,0.6);
+  background-color: black;
   position: fixed;
   top: 0;
   width: 100%;
+  opacity: 0.8;
 }
 
 nav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: White;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -29,4 +30,7 @@ nav a {
 
 .card-box {
     padding: 2px 16px;
+}
+.small-text {
+
 }
