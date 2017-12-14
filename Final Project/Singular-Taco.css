@@ -209,7 +209,7 @@ padding-left: 40px;}
     width: 15%;
 }
 .card a {
-  color: black 
+  color: black
 }
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -223,6 +223,9 @@ padding-left: 40px;}
 }
 .float-clear{
   clear: both;
+}
+.Legal {
+
 }
 .nav-1 {}
 .nav-2 {}
