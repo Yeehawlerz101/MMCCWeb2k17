@@ -3,8 +3,59 @@
   <head>
     <meta charset="utf-8">
     <title>HaloGen|Contact</title>
+    <link rel="stylesheet" href="Reset.css">
+    <link rel="stylesheet" href="Singular-Taco.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Roboto|Ubuntu" rel="stylesheet">
   </head>
-  <body>
+  <style>
+  input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: blue;
+       transition: 0.45s;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: rgba(35, 35, 35, 0.8);
+  padding: 20px;
+  float: left;
+    font-family: 'Roboto', cursive;
+      width: 48%;
+}
+.container label {
+  color:white;
+
+}
+main {
+  border-radius: 5px;
+  background-color: rgba(35, 35, 35, 0.8);
+  width: 30%;
+  margin-left: 35%;
+  color:white;
+  padding-bottom:20px;
+}
+  </style>
+  <body class="Body-Contact">
     <nav>
     <div class="nav-1"style="float:left;">
       <a href="Archived.html">Archived</a>
@@ -18,17 +69,39 @@
     <div class="nav-4"style="float:left;">
       <a href="Legal.html">Legal</a>
     </div>
-    <div class="nav-5"style="float:left;">
+    <div class="nav-5"style="float:left;background-color:blue;">
       <a href="Contact.html">Contact</a>
     </div>
     </nav>
+    <div class="spacer" style="margin-top:55px;">
+    </div>
     <main>
-      Phone: 951-667-2119
-      Adress: 201 W 6th St, Corona, CA 92882
-      E-mail: <a href="mailto:HelpDesk@HaloGen.net?subject=feedback">HelpDesk@HaloGen.net</a>
+      <center>
+      <h2>General Contact Information</h2>
+      <h4>Phone:</h4> <a href="tel:+19516672119">1-951-667-2119</a>
+    <h4>Adress:</h4> 201 W 6th St, Corona, CA 92882
+    <h4>E-mail:</h4> <a href="mailto:HelpDesk@HaloGen.net?subject=feedback">HelpDesk@HaloGen.net</a>
+  </center>
     </main>
+    <center>
+      <h4 style="color:white;text-shadow: 1px 1px black;">Or send a message to us directly!</h4>
+    </center>
+      <div class="container" style="margin-left:15px;">
+  <form action="">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <label for="ename">Last Name</label>
+    <input type="text" id="ename" name="E-mail" placeholder="Your email..">
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="What would you like to talk about?" style="height:200px"></textarea>
+    <input style="" type="submit" value="Submit">
+  </form>
+</div>
     <section>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.545763992147!2d-117.56980318478962!3d33.87559548065441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcc81222e60bbb%3A0x9ee058d21761a795!2s201+W+6th+St%2C+Corona%2C+CA+92882!5e0!3m2!1sen!2sus!4v1513123945181" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.545763992147!2d-117.56980318478962!3d33.87559548065441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcc81222e60bbb%3A0x9ee058d21761a795!2s201+W+6th+St%2C+Corona%2C+CA+92882!5e0!3m2!1sen!2sus!4v1513123945181" width="925" height="555" frameborder="0" style="border:0" allowfullscreen></iframe>
     </section>
     <footer>
       Copyright &copy; 2017 HaloGen Computing LLC All Rights Reserved.

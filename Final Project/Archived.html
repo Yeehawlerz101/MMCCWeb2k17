@@ -2,11 +2,51 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="Reset.css">
+    <link rel="stylesheet" href="Singular-Taco.css">
+<link href="https://fonts.googleapis.com/css?family=Quicksand|Roboto|Ubuntu" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <title>HaloGen|Archives</title>
   </head>
-  <body>
+  <body class="Body-Archived">
+    <style media="screen">
+
+    .hideabox .toggle-button {
+        cursor: pointer;
+    }
+
+    .hideabox .toggle-button i.fa {
+        font-size: 0.75em;
+    }
+
+    </style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <script type="text/javascript">
+
+    $(document).ready(function() {
+
+      $('.hideabox .toggle-button').on('click', function() {
+        // Use .toggle to swap between display: none and display: inline/block
+        $(this).closest('.hideabox').find('.secret').toggle();
+
+        // Swap the up/down FontAwesome symbols
+        $(this).find('i.fa').first().toggleClass("fa-chevron-up fa-chevron-down");
+
+        // Prevent other actions from happening after the click
+        return false;
+      });
+
+      // Trigger the click event on each hideabox after the page load to close them
+      $('.hideabox .toggle-button').trigger('click');
+
+    }); //document.ready
+
+    </script>
+
     <nav>
-    <div class="nav-1"style="float:left;">
+    <div class="nav-1"style="float:left;background-color:blue;">
       <a href="Archived.html">Archived</a>
     </div>
     <div class="nav-2"style="float:left;">
@@ -22,12 +62,76 @@
       <a href="Contact.html">Contact</a>
     </div>
     </nav>
-    <main>
+    <div class="spacer">
 
+    </div>
+    <main>
+      <style type="text/css">
+      .tg  {border-collapse:collapse;border-spacing:0;}
+      .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+      .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+      .tg .tg-y49x{background-color:#cb0000;color:#ffffff;vertical-align:top}
+      .tg .tg-9hbo{font-weight:bold;vertical-align:top}
+      .tg .tg-yw4l{vertical-align:top}
+      .tg .tg-sjq2{background-color:#32cb00;color:#ffffff;vertical-align:top}
+      </style>
+      <table class="tg">
+        <tr>
+          <th class="tg-9hbo"style="color:white;">File Name</th>
+          <th class="tg-9hbo"style="color:white;">File Type</th>
+          <th class="tg-9hbo"style="color:white;">Size</th>
+          <th class="tg-9hbo"style="color:white;">Developer</th>
+          <th class="tg-9hbo"style="color:white;">Availability</th>
+          <th class="tg-9hbo"style="color:white;">Public Domain?</th>
+        </tr>
+        <tr>
+          <td class="tg-yw4l"style="color:white;">Windows Bob</td>
+          <td class="tg-yw4l"style="color:white;">.ISO</td>
+          <td class="tg-yw4l"style="color:white;">453 MB</td>
+          <td class="tg-yw4l"style="color:white;">Microsoft</td>
+          <td class="tg-y49x"style="color:white;">No</td>
+          <td class="tg-sjq2"style="color:white;">Yes</td>
+        </tr>
+        <tr>
+          <td class="tg-yw4l"style="color:white;">Horizion</td>
+          <td class="tg-yw4l"style="color:white;">.EXE</td>
+          <td class="tg-yw4l"style="color:white;">81 MB</td>
+          <td class="tg-yw4l"style="color:white;">Daring Development</td>
+          <td class="tg-sjq2"style="color:white;">Free</td>
+          <td class="tg-y49x"style="color:white;">No</td>
+        </tr>
+        <tr>
+          <td class="tg-yw4l"style="color:white;">Xbox SDK</td>
+          <td class="tg-yw4l"style="color:white;">.MSI</td>
+          <td class="tg-yw4l"style="color:white;">3.86 GB</td>
+          <td class="tg-yw4l"style="color:white;">Microsoft</td>
+          <td class="tg-sjq2"style="color:white;">Free</td>
+          <td class="tg-y49x"style="color:white;">No</td>
+        </tr>
+        <tr>
+          <td class="tg-yw4l"style="color:white;">PowerISO v2</td>
+          <td class="tg-yw4l"style="color:white;">.EXE</td>
+          <td class="tg-yw4l"style="color:white;">35 MB</td>
+          <td class="tg-yw4l"style="color:white;">Power Software Ltd.</td>
+          <td class="tg-sjq2"style="color:white;">Free</td>
+          <td class="tg-y49x"style="color:white;">No</td>
+        </tr>
+        <div class="hideabox">
+            <h2 class="toggle-button">
+                <a href="#">
+                    <i class="fa fa-chevron-up"style="color:white;" ></i>Download Information
+                </a>
+            </h2>
+            <div class="secret">
+                <p style="color:white;">Please contact us for the dowload link and to get the required programs to run the software correctly. :)</p>
+            </div>
+        </div>
+      </table>
     </main>
     <section>
 
     </section>
+
     <footer>
 Copyright &copy; 2017 HaloGen Computing LLC All Rights Reserved.
     </footer>
